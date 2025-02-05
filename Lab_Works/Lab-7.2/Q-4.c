@@ -27,3 +27,27 @@ int main()
         printf("\n");
     }
 }
+
+// #include<stdio.h>
+// int main(){
+
+//     for(int i = 5; i >= 1; i--)
+//     {
+//         for(int j = 5; j >= 1; j--)
+//         {
+//             if(j <= i && j %2)
+//             {
+//                 printf("1");
+//             }
+//             else if(j <=i )
+//             {
+//                 printf("0");
+//             }
+//             else
+//             {
+//                 printf(" ");
+//             }
+//         }
+//         printf("\n");
+//     }
+// }

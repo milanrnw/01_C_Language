@@ -7,12 +7,12 @@ int main()
     printf("\nEnter Principle Amount: ");
     scanf("%lf",&p);
 
-    printf("\nHint: Rate of interest is a rate at which the principal amount is given/borrowed to/from someone for a certain time");
+    printf("\nHint: Rate of interest is a rate at which the principal amount is borrowed/given to/from someone for a certain time");
     printf("\nEnter The Rate Of Interest (%%) : ");
     scanf("%lf",&r);
 
-    printf("\nHint: The principal is the amount that was initially borrowed/given");
-    printf("\nEnter Time Duration Of Amount To Be Paid : ");
+    printf("\nHint: Time duration is the period for which the principal amount was borrowed/given .\n");
+    printf("\nEnter Time Duration Of Amount To Be Paid ( in years ): ");
     scanf("%lf",&t);
 
     simple_interest = (p*r*t)/100;

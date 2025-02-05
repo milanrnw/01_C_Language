@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 
 int size_of_string(char* name)
 {
